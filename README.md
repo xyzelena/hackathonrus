@@ -11,6 +11,8 @@ Hackathon aggregator for [letshackhack](https://www.xn--80aa3anexr8c.xn--p1acf/l
 
 ## Available Scripts
 
+You can also use the list of commands in the __Makefile__ for faster typing.
+
 ### `npm install`
 
 This command installs a package and any packages that it depends on for this project. 
