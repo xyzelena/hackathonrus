@@ -11,6 +11,10 @@ Hackathon aggregator for [letshackhack](https://www.xn--80aa3anexr8c.xn--p1acf/l
 
 ## Available Scripts
 
+### `npm install`
+
+This command installs a package and any packages that it depends on for this project. 
+
 ### `npm start`
 
 Runs the app in the development mode.\
