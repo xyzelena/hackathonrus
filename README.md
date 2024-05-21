@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/3281022e4aecdc919ac7/maintainability)](https://codeclimate.com/github/xyzelena/hackathonrus/maintainability)
+
 # hackathonrus
 
 Hackathon aggregator for [letshackhack](https://www.xn--80aa3anexr8c.xn--p1acf/letshackhack)
