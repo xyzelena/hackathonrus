@@ -6,10 +6,11 @@ Hackathon aggregator for [letshackhack](https://www.xn--80aa3anexr8c.xn--p1acf/l
 
 ## Our team "Quartet" consists of:
 
-1. UX/UI: Anastasia 
-2. Analyst/ML-dev: Elena 
-3. Frontend: Elena 
-4. Backend/TeamLead: Roman
+1. UX/UI: Anastasia Suvorova
+2. UX/UI: Ekaterina Stashkevich 
+3. Analyst/ML-dev: Elena Burnyasheva 
+4. Frontend: Elena Khuzhina 
+5. Backend/TeamLead: Roman Tatarinov 
 
 ## Available Scripts
 
