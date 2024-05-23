@@ -1,0 +1,20 @@
+.mainMenu {
+    background-color: aqua;
+
+    max-height: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainMenu_nav{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mainMenu_nav a{
+    padding: 20px;
+}
+
+
+

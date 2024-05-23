@@ -1,0 +1,13 @@
+.mainHeader {
+    background-color: bisque;
+
+    height: 360px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.mainHeader_header {
+    color: #E93673;
+}
