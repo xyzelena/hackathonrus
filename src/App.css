@@ -43,3 +43,7 @@ a {
 .active {
   color: red;
 }
+
+.container {
+  width: 1920px;
+}
