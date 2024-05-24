@@ -11,8 +11,12 @@
 }
 
 .mainSearch {
-    width: 1193px;
-    margin: 0 auto;
+    width: 1194px;
+    /* margin: 0 auto; */
+
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mainSearch_search {
@@ -68,7 +72,7 @@
 
 .mainSearch_filters_btn {
     font-weight: bold;
-    
+
     padding: 10px;
 
     border: 1px solid #EA6A2E;
@@ -76,3 +80,18 @@
 
     background-color: white;
 }
+
+.mainSearch_filters_btn:hover {
+    background-color: #8D8D8D;
+}
+
+.ModalFilters {
+    margin: 5% auto;
+    width: 1194px;
+    height: 80%;
+    background-color: #ebebeb;
+    overflow: auto;
+}
+
+
+

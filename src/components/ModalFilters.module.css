@@ -1,0 +1,93 @@
+.ModalFilters_main {
+    margin: 32px;
+}
+
+.ModalFilters_main_header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 24px;
+}
+
+.ModalFilters_closeBtn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url('../images/icon_close.svg') no-repeat 50% 50%;
+}
+
+.ModalFilters_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ModalFilters_btn {
+    padding: 10px;
+    margin-right: 10px;
+
+    border: 1px solid #EA6A2E;
+    border-radius: 32px;
+    
+    color: grey; 
+    background-color: white;
+}
+
+.ModalFilters_btn:hover{
+    background-color: #f0f5f5;
+}
+
+.ModalFilters_professions {
+    margin-bottom: 24px;
+}
+
+.professionsBtns {
+    width: 70%; 
+}
+
+.professionsBtns button {
+    margin-bottom: 10px;
+}
+
+.ModalFilters_subjects{
+    margin-bottom: 8px;
+}
+
+.ModalFilters_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ModalFilters_images img {
+    width: 216px;
+    height: 138px;
+    margin-bottom: 16px;
+}
+
+.ModalFilters_periodCarrying {
+    margin-bottom: 24px;
+}
+
+.ModalFilters_durationCarrying {
+    margin-bottom: 24px;
+}
+
+.ModalFilters_complexityCarrying {
+    margin-bottom: 24px;
+}
+
+.ModalFilters_city {
+    margin-bottom: 24px;
+}
+
+.ModalFilters_countParticipants {
+    margin-bottom: 24px;
+}
+
+.ModalFilters_range {
+    background-color: #EA6A2E;
+}
+
+
+

@@ -1,6 +1,21 @@
+import { useState } from 'react';
+import Modal from 'react-modal';
+
+import ModalFilters from './ModalFilters';
+
 import styles from './Participants.module.css'; 
 
 const Participants = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
     <div className='container'>
 
@@ -42,10 +57,19 @@ const Participants = () => {
                 </div>
               </form>
 
-              <button type='button' className={styles.mainSearch_filters_btn}>Фильтры</button>
+              <button type='button' className={styles.mainSearch_filters_btn} onClick={openModal}>Фильтры</button>
           </div>
 
       </div>
+
+      <Modal 
+        isOpen={modalIsOpen} 
+        onRequestClose={closeModal} 
+        className={styles.ModalFilters}
+        appElement={document.getElementById('app')}
+      >
+        <ModalFilters closeModal={closeModal}/>
+      </Modal>
 
     </div>
     
