@@ -10,7 +10,14 @@ Hackathon aggregator for [letshackhack](https://www.xn--80aa3anexr8c.xn--p1acf/l
 2. UX/UI: Ekaterina Stashkevich 
 3. Analyst/ML-dev: Elena Burnyasheva 
 4. Frontend: Elena Khuzhina 
-5. Backend/TeamLead: Roman Tatarinov 
+5. Backend/TeamLead: Roman Tatarinov
+
+## The project included:
+* Setting up the environment: node.js, npm, ESLint, Makefile;
+* Installing Create React App, React Router, Redux Toolkit; 
+* Working with API, asynchronous requests using axios;
+
+To maintain code quality the following technologies were used: CodeClimate, Eslint.
 
 ## Available Scripts
 
