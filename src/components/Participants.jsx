@@ -4,8 +4,6 @@ import Modal from 'react-modal';
 import ModalFilters from './ModalFilters';
 import ListEvents from './parts/ListEvents';
 
-import styles from './Participants.module.css'; 
-
 const Participants = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -20,24 +18,24 @@ const Participants = () => {
   return (
     <div className='container'>
 
-      <div className={styles.mainHeader}>
-        <h1 className={styles.mainHeader_header}>Присоединяйся к хакатонам!</h1>
+      <div className='mainHeader'>
+        <h1 className='mainHeader_header'>Присоединяйся к хакатонам!</h1>
       </div>
 
-      <div className={styles.mainSearch}>
+      <div className='mainSearch'>
 
           <div>
             <form>
-              <div className={styles.mainSearch_search}>
-                <input type="search" name="search" className={styles.mainSearch_search_input} placeholder='Поиск по Хакатонам'/>
-                <input type="submit" value="" className={styles.mainSearch_search_submit} />
+              <div className='mainSearch_search'>
+                <input type="search" name="search" className='mainSearch_search_input' placeholder='Поиск по Хакатонам'/>
+                <input type="submit" value="" className='mainSearch_search_submit'/>
               </div>              
             </form>
           </div>
 
-          <div className={styles.mainSearch_filters}>
+          <div className='mainSearch_filters'>
             <form>
-                <div className={styles.mainSearch_filters_selects}> 
+                <div className='mainSearch_filters_selects'> 
                   <span>Сортировать по:</span>
 
                   <select name="hackathons_select_date" id="hackathon-select_date">
@@ -58,12 +56,12 @@ const Participants = () => {
                 </div>
               </form>
 
-              <button type='button' className={styles.mainSearch_filters_btn} onClick={openModal}>Фильтры</button>
+              <button type='button' className='mainSearch_filters_btn' onClick={openModal}>Фильтры</button>
 
               <Modal 
                 isOpen={modalIsOpen} 
                 onRequestClose={closeModal} 
-                className={styles.ModalFilters}
+                className='modalFilters'
                 appElement={document.getElementById('app')}
               >
               <ModalFilters closeModal={closeModal}/>
@@ -72,7 +70,7 @@ const Participants = () => {
 
       </div>
 
-      <div className={styles.mainContent}>
+      <div className='mainContent'>
         <ListEvents />
       </div>      
 

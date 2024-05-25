@@ -1,0 +1,25 @@
+.pastHackathons_handlerPages {
+    
+    margin-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pastHackathons_handlerPages_btn {
+    padding: 10px;
+    margin-right: 10px;
+
+    border: 1px solid #EA6A2E;
+    border-radius: 32px;
+    
+    color: black; 
+    font-weight: bold;
+
+    background-color: white;
+}
+
+.pastHackathons_handlerPages_btn:hover{
+    background: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,106,46,1) 99%);
+}
