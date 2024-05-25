@@ -1,0 +1,40 @@
+.ListEvents_container {
+    width: 1440px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.ListEvents_card {
+    width: 330px;
+    margin-bottom: 40px;
+}
+
+.ListEvents_card_main {
+    width: 330px;
+    height: 330px;
+    border: 1px solid gray;
+    border-radius: 8px;
+
+    margin-bottom: 16px;
+}
+
+.ListEvents_card_format {
+    color: #8D8D8D;
+
+    width: 100%;
+
+    margin-bottom: 16px;
+}
+
+.ListEvents_card_title {
+    margin-bottom: 16px;
+}
+
+.ListEvents_card_description {
+
+}

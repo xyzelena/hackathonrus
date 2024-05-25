@@ -37,7 +37,7 @@ a {
 }
 
 .App {
-  max-width: 1920px;
+  width: 1920px;
 }
 
 .active {
@@ -47,4 +47,18 @@ a {
 .container {
   width: 1920px;
 }
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-size: 100px;
+  font-weight: bolder;
+
+  margin: 100px 0;
+}
+
+
+
 

@@ -12,9 +12,8 @@
 
 .mainSearch {
     width: 1194px;
-    /* margin: 0 auto; */
 
-    position: fixed;
+    position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -89,9 +88,17 @@
     margin: 5% auto;
     width: 1194px;
     height: 80%;
-    background-color: #ebebeb;
+
+    background: linear-gradient(90deg, rgba(212,210,209,1) 0%, rgba(180,180,180,1) 99%);
+    
     overflow: auto;
 }
+
+.mainContent {
+    width: 100%;
+}
+
+
 
 
 

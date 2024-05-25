@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Modal from 'react-modal';
 
 import ModalFilters from './ModalFilters';
+import ListEvents from './parts/ListEvents';
 
 import styles from './Participants.module.css'; 
 
@@ -58,18 +59,22 @@ const Participants = () => {
               </form>
 
               <button type='button' className={styles.mainSearch_filters_btn} onClick={openModal}>Фильтры</button>
+
+              <Modal 
+                isOpen={modalIsOpen} 
+                onRequestClose={closeModal} 
+                className={styles.ModalFilters}
+                appElement={document.getElementById('app')}
+              >
+              <ModalFilters closeModal={closeModal}/>
+              </Modal>
           </div>
 
       </div>
 
-      <Modal 
-        isOpen={modalIsOpen} 
-        onRequestClose={closeModal} 
-        className={styles.ModalFilters}
-        appElement={document.getElementById('app')}
-      >
-        <ModalFilters closeModal={closeModal}/>
-      </Modal>
+      <div className={styles.mainContent}>
+        <ListEvents />
+      </div>      
 
     </div>
     

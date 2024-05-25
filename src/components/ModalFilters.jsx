@@ -18,96 +18,141 @@ const ModalFilters = ({closeModal}) => {
   return (
     <div className={styles.ModalFilters_main}>
 
-      <div className={styles.ModalFilters_main_header}>
-          <div className={styles.ModalFilters_methodCarrying}>
-            <div className={styles.ModalFilters_title}>Способ проведения:</div>
+      <form>
+        <div className={styles.ModalFilters_main_container}>
 
-            <div className={styles.ModalFilters_btns}>
-              <button type="button" className={styles.ModalFilters_btn}>Онлайн</button>
-              <button type="button" className={styles.ModalFilters_btn}>Офлайн</button>
-            </div>
-          </div>
+            <div className={styles.ModalFilters_methodCarrying}>
+              <div className={styles.ModalFilters_title}>Способ проведения:</div>
 
-          <input type="button" value="" className={styles.ModalFilters_closeBtn} onClick={closeModal} />
-      </div>
-
-      <div className={styles.ModalFilters_professions}>
-        <div className={styles.ModalFilters_title}>Кому подходит:</div>
-
-        <div className={styles.ModalFilters_btns}>
-              <div className={styles.professionsBtns}>
-                <button type="button" className={styles.ModalFilters_btn}>Frontend-разработчик</button>
-                <button type="button" className={styles.ModalFilters_btn}>UX-UI дизайнер</button>
-                <button type="button" className={styles.ModalFilters_btn}>Web-дизайнер</button>
-                <button type="button" className={styles.ModalFilters_btn}>Backend-разработчик</button>
-                <button type="button" className={styles.ModalFilters_btn}>Product manager</button>
-                <button type="button" className={styles.ModalFilters_btn}>Mobile-разработчик</button>
-                <button type="button" className={styles.ModalFilters_btn}>Аналитик данных</button>
-                <button type="button" className={styles.ModalFilters_btn}>Тестировщик</button>
-                <button type="button" className={styles.ModalFilters_btn}>Маркетолог</button>
+              <div className={styles.ModalFilters_btns}>
+                <button type="button" className={styles.ModalFilters_btn}>Онлайн</button>
+                <button type="button" className={styles.ModalFilters_btn}>Офлайн</button>
               </div>
+            </div>
+
+        <div className={styles.ModalFilters_professions}>
+          <div className={styles.ModalFilters_title}>Кому подходит:</div>
+
+          <div className={styles.ModalFilters_btns}>
+                <div className={styles.professionsBtns}>
+                  <button type="button" className={styles.ModalFilters_btn}>Frontend-разработчик</button>
+                  <button type="button" className={styles.ModalFilters_btn}>UX-UI дизайнер</button>
+                  <button type="button" className={styles.ModalFilters_btn}>Web-дизайнер</button>
+                  <button type="button" className={styles.ModalFilters_btn}>Backend-разработчик</button>
+                  <button type="button" className={styles.ModalFilters_btn}>Product manager</button>
+                  <button type="button" className={styles.ModalFilters_btn}>Mobile-разработчик</button>
+                  <button type="button" className={styles.ModalFilters_btn}>Аналитик данных</button>
+                  <button type="button" className={styles.ModalFilters_btn}>Тестировщик</button>
+                  <button type="button" className={styles.ModalFilters_btn}>Маркетолог</button>
+                </div>
+          </div>
         </div>
-      </div>
 
-      <div className={styles.ModalFilters_subjects}>
-        <div className={styles.ModalFilters_title}>Тематика хакатона:</div>
+        <div className={styles.ModalFilters_subjects}>
+          <div className={styles.ModalFilters_title}>Тематика хакатона:</div>
 
-        <div className={styles.ModalFilters_images}>
-              <img src={img1} alt="Intelligence" />
-              <img src={img2} alt="Technologies" />
-              <img src={img3} alt="Iot" />
-              <img src={img4} alt="Machine learning" />
-              <img src={img5} alt="Medicine" />
-              <img src={img6} alt="Ecology" />
-              <img src={img7} alt="Education" />
-              <img src={img8} alt="Art" />
-              <img src={img9} alt="Cybersecurity" />
-              <img src={img10} alt="Travel" />
+          <div className={styles.ModalFilters_images}>
+                <img src={img1} alt="Intelligence" />
+                <img src={img2} alt="Technologies" />
+                <img src={img3} alt="Iot" />
+                <img src={img4} alt="Machine learning" />
+                <img src={img5} alt="Medicine" />
+                <img src={img6} alt="Ecology" />
+                <img src={img7} alt="Education" />
+                <img src={img8} alt="Art" />
+                <img src={img9} alt="Cybersecurity" />
+                <img src={img10} alt="Travel" />
+          </div>
         </div>
-      </div>
 
-      <div className={styles.ModalFilters_periodCarrying}>
-        <div className={styles.ModalFilters_title}>Период проведения:</div>
+        <div className={styles.ModalFilters_periodCarrying}>
+          <div className={styles.ModalFilters_title}>Период проведения:</div>
 
-        <div className={styles.ModalFilters_btns}>
-          <span>С  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
-          <span>По  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
+          <div className={styles.ModalFilters_btns}>
+            <span>С  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
+            <span>По  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
+          </div>
         </div>
-      </div>
 
-      <div className={styles.ModalFilters_durationCarrying}>
-        <div className={styles.ModalFilters_title}>Длительность хакатона (количество дней):</div>
+        <div className={styles.ModalFilters_durationCarrying}>
+          <div className={styles.ModalFilters_title}>Длительность хакатона (количество дней):</div>
 
-        <div className={styles.ModalFilters_btns}>
-          <span>От  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
-          <span>До  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
+          <div className={styles.ModalFilters_btns}>
+            <span>От  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
+            <span>До  </span><button type="button" className={styles.ModalFilters_btn}>00.00.0000</button>
+          </div>
         </div>
-      </div>
 
-      <div className={styles.ModalFilters_complexityCarrying}>
-        <div className={styles.ModalFilters_title}>Сложность:</div>
+        <div className={styles.ModalFilters_complexityCarrying}>
+          <div className={styles.ModalFilters_title}>Сложность:</div>
 
-        <div className={styles.ModalFilters_btns}>
-          <button type="button" className={styles.ModalFilters_btn}>Новичок</button>
-          <button type="button" className={styles.ModalFilters_btn}>Опытный</button>
-          <button type="button" className={styles.ModalFilters_btn}>Эксперт</button>
+          <div className={styles.ModalFilters_btns}>
+            <button type="button" className={styles.ModalFilters_btn}>Новичок</button>
+            <button type="button" className={styles.ModalFilters_btn}>Опытный</button>
+            <button type="button" className={styles.ModalFilters_btn}>Эксперт</button>
+          </div>
         </div>
-      </div>
 
-      <div className={styles.ModalFilters_city}>
-        <div className={styles.ModalFilters_title}>Город проведения:</div>
+        <div className={styles.ModalFilters_city}>
+          <div className={styles.ModalFilters_title}>Город проведения:</div>
 
-        <div className={styles.ModalFilters_btns}>
-          <input type="text" className={styles.ModalFilters_btn} placeholder='Поле ввода'/>
+          <div className={styles.ModalFilters_btns}>
+            <input type="text" className={styles.ModalFilters_btn} placeholder='Поле ввода'/>
+          </div>
         </div>
-      </div>
 
-      <div className={styles.ModalFilters_countParticipants}>
-        <div className={styles.ModalFilters_title}>Количество человек в команде от:</div>
+        <div className={styles.ModalFilters_countParticipants}>
+          <div className={styles.ModalFilters_title}>Количество человек в команде от:</div>
 
-        <div className={styles.ModalFilters_btns}>
-          <input type="range" className={styles.ModalFilters_range} min="1" max="10" step='1'/>
+          <div className={styles.ModalFilters_btns}>
+            <input type="range" className={styles.ModalFilters_range} min="1" max="30" step='1'/>
+          </div>
         </div>
+
+        <div className={styles.ModalFilters_prize}>
+          <div className={styles.ModalFilters_title}>Призовой фонд от:</div>
+
+          <div className={styles.ModalFilters_btns}>
+            <input type="range" className={styles.ModalFilters_range} min="10000" max="3000000" step='10000'/>
+          </div>
+        </div>
+
+        <div className={styles.ModalFilters_organizers}>
+          <div className={styles.ModalFilters_title}>Организаторы:</div>
+
+          <div className={styles.ModalFilters_btns}>
+            <button type="button" className={styles.ModalFilters_btn}>СБЕР</button>
+            <button type="button" className={styles.ModalFilters_btn}>ВШЭ</button>
+            <button type="button" className={styles.ModalFilters_btn}>МТС</button>
+            <button type="button" className={styles.ModalFilters_btn}>РЖД</button>
+            <button type="button" className={styles.ModalFilters_btn}>Тинькофф Банк</button>
+          </div>
+        </div>
+
+        <div className={styles.ModalFilters_sponsors}>
+          <div className={styles.ModalFilters_title}>Спонсоры и партнёры:</div>
+
+          <div className={styles.ModalFilters_btns}>
+            <button type="button" className={styles.ModalFilters_btn}>СБЕР</button>
+            <button type="button" className={styles.ModalFilters_btn}>ВШЭ</button>
+            <button type="button" className={styles.ModalFilters_btn}>МТС</button>
+            <button type="button" className={styles.ModalFilters_btn}>РЖД</button>
+            <button type="button" className={styles.ModalFilters_btn}>Тинькофф Банк</button>
+            <button type="button" className={styles.ModalFilters_btn}>ВТБ</button>
+            <button type="button" className={styles.ModalFilters_btn}>Билайн</button>
+            <button type="button" className={styles.ModalFilters_btn}>Росатом</button>
+            <button type="button" className={styles.ModalFilters_btn}>Точка</button>
+            <button type="button" className={styles.ModalFilters_btn}>Теле2</button>
+          </div>
+        </div>
+
+        <button type="submit" className={styles.ModalFilters_submit}>Применить</button>
+
+        </div> 
+      </form>
+
+      <div className={styles.ModalFilters_close}>
+        <input type="button" value="" className={styles.ModalFilters_closeBtn} onClick={closeModal} />
       </div>
 
     </div>

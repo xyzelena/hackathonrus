@@ -1,0 +1,13 @@
+.card_rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 98px;
+    height: 26px;
+  
+    background: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,106,46,1) 99%);
+  
+    border-radius: 16px;
+    padding: 10px;
+}

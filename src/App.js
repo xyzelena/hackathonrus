@@ -7,8 +7,10 @@ import Participants from './components/Participants';
 import PastHackathons from './components/PastHackathons';
 import Teams from './components/Teams';
 import NotFound from './components/NotFound';
+import Card from './components/parts/Card';
 
 import './App.css';
+
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path='blog' element={<Blog />} />
             <Route path='participants' element={<Participants />} />
+            <Route path='participants/card' element={<Card />} />
             <Route path='pastHackathons' element={<PastHackathons />} />
             <Route path='teams' element={<Teams />} />
             <Route path='*' element={<NotFound />} />
