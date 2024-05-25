@@ -1,0 +1,27 @@
+.articles_container{
+    margin-top: 24px;
+}
+
+.articles_container h1 {
+    margin-top: 24px;
+    
+}
+
+.articles_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.article_card {
+    width: 330px;
+    margin-bottom: 16px;
+}
+
+.article_img img{
+    width: 50%;
+}

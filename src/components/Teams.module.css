@@ -1,0 +1,69 @@
+.teams_container {
+    margin-top: 24px;
+}
+
+.teams_main {
+    width: 1440px;
+
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.teams_desc {
+    width: 700px;
+    margin-left: 40px;
+}
+
+.teams_desc h2{
+    margin-bottom: 40px;
+
+    font-size: 34px;
+}
+
+.teams_descr_img {
+    margin-bottom: 40px;
+}
+
+.teams_desc p{
+    margin-bottom: 40px;
+
+    font-size: 18px;
+}
+
+.teams_descr_contacts {
+    margin-bottom: 40px;
+}
+
+.contacts_btn {
+    padding: 10px;
+    margin-right: 10px;
+
+    border: 1px solid #EA6A2E;
+    border-radius: 32px;
+    
+    color: black; 
+    background-color: white;
+}
+
+.contacts_btn:hover{
+    background-color: #EA6A2E;
+}
+
+.invite_btn {
+    width: 700px;
+    height: 46px;
+
+    border-radius: 32px;
+    background: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,106,46,1) 99%);
+    color: white;
+}
+
+.invite_btn:hover {
+    background: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,90,46,1) 99%);
+}
+
+.teams_people {
+    background-color:blue;
+}
+
