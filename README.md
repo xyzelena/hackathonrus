@@ -26,13 +26,12 @@ To maintain code quality the following technologies were used: CodeClimate, Esli
 ## For the backend were used: 
 python(FastAPI, sqlalchemy, pydantic), postgresql, docker, docker-compose, nginx
 
-Server: http://94.198.218.227/openapi
+Detailed API documentation, which is available at: 
 
-Examples of received data: 
-* http://94.198.218.227/hackathons/?size=20&page=1
-* http://94.198.218.227/articles/?size=20&page=1
+http://94.198.218.227/openapi
+
+The documentation is implemented using Swagger, which makes it easy to explore all available endpoints, their parameters and response formats.
   
-
 ## Available Scripts
 
 You can also use the list of commands in the __Makefile__ for faster typing.
