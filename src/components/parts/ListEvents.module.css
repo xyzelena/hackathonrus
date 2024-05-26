@@ -21,6 +21,23 @@
     border-radius: 8px;
 
     margin-bottom: 16px;
+
+    position: relative;
+}
+
+.ListEvents_card_rating {
+    position: absolute;
+
+    top:0;
+    right: 0;
+    z-index: 2;
+}
+
+.ListEvents_card_img {
+    position: absolute;
+
+    top:0; 
+    z-index: 1;
 }
 
 .ListEvents_card_format {

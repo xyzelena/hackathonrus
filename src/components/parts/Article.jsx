@@ -3,7 +3,6 @@ import styles from './Article.module.css';
 const Article = ({ articles }) => {
     return (
         <div className={styles.articles_container}>
-            <h1>Статьи</h1>
             <div className={styles.articles_cards}>
                 {
                     articles.map((article) => {

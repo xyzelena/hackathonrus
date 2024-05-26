@@ -1,0 +1,119 @@
+.team_container {
+    margin-top: 24px;
+}
+
+.team_main {
+    width: 1440px;
+
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.team_desc {
+    width: 700px;
+    margin-left: 40px;
+}
+
+.team_desc h2{
+    margin-bottom: 40px;
+
+    font-size: 34px;
+}
+
+.team_descr_img {
+    margin-bottom: 40px;
+}
+
+.team_desc p{
+    margin-bottom: 40px;
+
+    font-size: 18px;
+}
+
+.team_descr_contacts {
+    margin-bottom: 40px;
+}
+
+.contacts_btn {
+    padding: 10px;
+    margin-right: 10px;
+
+    border: 1px solid #EA6A2E;
+    border-radius: 32px;
+    
+    color: black; 
+    background-color: white;
+}
+
+.contacts_btn:hover{
+    background-color: #EA6A2E;
+}
+
+.invite_btn {
+    width: 700px;
+    height: 46px;
+
+    border-radius: 32px;
+    background: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,106,46,1) 99%);
+    color: white;
+}
+
+.invite_btn:hover {
+    background: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,90,46,1) 99%);
+}
+
+.team_people {
+    margin: 0 auto;
+    margin-top: 24px;
+
+    width: 1440px; 
+}
+
+.team_people h2{
+   font-size: 34px;
+   margin-bottom: 40px;
+   margin-top: 40px;
+}
+
+.team_people_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.team_people_card {
+    width: 330px;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+
+.team_people_card_img {
+    margin-bottom: 10px;
+}
+
+.team_people_card h3{
+    margin-bottom: 10px;
+}
+
+.team_people_card h4{
+    margin-bottom: 10px;
+}
+
+.team_people_card p{
+    margin-bottom: 10px;
+    color: #8D8D8D;
+}
+
+.team_people_card button {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
