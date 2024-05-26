@@ -15,6 +15,7 @@ Hackathon aggregator for [хакатоны.рус](https://www.xn--80aa3anexr8c.
 ## Main links: 
 * [Link to Figma layout](https://www.figma.com/design/CnTTlmMmbl3zUkY97oMBAS/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B5%D1%82-%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD?node-id=58-2266&t=qLacBnMpufYBXrSz-0)
 * [Link to presentation](https://www.figma.com/design/Ez8z5zhb7RrNvUYXS8Waoe/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD-%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B5%D1%82-%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F-(Copy)?node-id=0-1&t=FNGw2SOgokxreUya-0)
+* [Link to GitLab to watch backend](https://gitlab.com/Lodhel/hack_ru)
 
 ## For the frontend were used: 
 * Setting up the environment: node.js, npm, ESLint, Makefile;
@@ -31,6 +32,8 @@ Detailed API documentation, which is available at:
 http://94.198.218.227/openapi
 
 The documentation is implemented using Swagger, which makes it easy to explore all available endpoints, their parameters and response formats.
+
+
   
 ## Available Scripts
 
