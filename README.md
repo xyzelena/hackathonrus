@@ -4,6 +4,8 @@
 
 Hackathon aggregator for [хакатоны.рус](https://www.xn--80aa3anexr8c.xn--p1acf/)
 
+[Project Screen Recording Link](https://drive.google.com/file/d/1Sk0xQMGUTwLAJGtNw49e_ksIBfkUZwML/view?usp=sharing)
+
 ## Our team "Quartet" consists of:
 
 1. UX/UI: Anastasia Suvorova
