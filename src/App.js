@@ -9,9 +9,9 @@ import Teams from './components/Teams';
 import NotFound from './components/NotFound';
 import Card from './components/parts/Card';
 import CardTeam from './components/parts/CardTeam';
+import CardPerson from './components/parts/CardPerson';
 
 import './App.css';
-
 
 const App = () => {
   return (
@@ -33,6 +33,8 @@ const App = () => {
 
             <Route path='teams' element={<Teams />} />
             <Route path='teams/cardTeam' element={<CardTeam />} />
+
+            <Route path='profile' element={<CardPerson />} />
 
             <Route path='*' element={<NotFound />} />
           </Route>

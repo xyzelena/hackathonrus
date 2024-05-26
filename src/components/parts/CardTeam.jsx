@@ -1,3 +1,7 @@
+import { NavLink } from 'react-router-dom';
+
+import Rating from '../UI/Rating';
+
 import styles from './CardTeam.module.css';
 
 import img from '../../images/team/img.png';
@@ -7,6 +11,10 @@ import person2 from '../../images/team/img2.png';
 import person3 from '../../images/team/img3.png';
 import person4 from '../../images/team/img4.png';
 import person5 from '../../images/team/img5.png';
+import event1 from '../../images/cardsEvents/1.png';
+import event2 from '../../images/cardsEvents/2.png';
+import event3 from '../../images/cardsEvents/3.png';
+import event4 from '../../images/cardsEvents/4.png';
 
 const CardTeam = () => {
     return (
@@ -100,7 +108,140 @@ const CardTeam = () => {
                 </div>
 
                 <div className={styles.team_people_events}>
-                    
+                    <h2>Хакатоны, в которых мы участвовали</h2>
+
+                    <div className={styles.team_events_cards}>
+
+                        <div className={styles.team_event_card}>
+                            <div className={styles.team_event_card_header}>
+                                <h2>2023</h2>
+                                <h3>1 место</h3>
+                            </div>                            
+
+                            <div className={styles.team_event_card_main}>
+                                <div className={styles.card_rating}>
+                                    <Rating />
+                                </div>
+
+                                <div className={styles.card_img}>
+                                    <img src={event2} alt="1 even" />
+                                </div>
+                            </div>
+
+                            <h3>Smart Social</h3>
+
+                            <div className={styles.team_event_project}>
+                                <h2>НАШ ПРОЕКТ</h2>
+                                <h3>GreenRoute</h3>
+                                <p>
+                                "GreenRoute" - платформа для выбора экологичных маршрутов. 
+                                Используем данные о дорогах, трафике и загрязнении, 
+                                чтобы предложить оптимальные пути с минимальным воздействием на окружающую среду. 
+                                Наша цель - стимулировать экологичное передвижение в городах.
+                                </p>
+                            </div>
+
+                            <button type="button" className={styles.invite_btn}>Посмотреть</button>
+                        </div>
+
+                        <div className={styles.team_event_card}>
+                            <div className={styles.team_event_card_header}>
+                                <h2>2023</h2>
+                                <h3>1 место</h3>
+                            </div>                            
+
+                            <div className={styles.team_event_card_main}>
+                                <div className={styles.card_rating}>
+                                    <Rating />
+                                </div>
+
+                                <div className={styles.card_img}>
+                                    <img src={event4} alt="1 even" />
+                                </div>
+                            </div>
+
+                            <h3>Smart Social</h3>
+
+                            <div className={styles.team_event_project}>
+                                <h2>НАШ ПРОЕКТ</h2>
+                                <h3>GreenRoute</h3>
+                                <p>
+                                "GreenRoute" - платформа для выбора экологичных маршрутов. 
+                                Используем данные о дорогах, трафике и загрязнении, 
+                                чтобы предложить оптимальные пути с минимальным воздействием на окружающую среду. 
+                                Наша цель - стимулировать экологичное передвижение в городах.
+                                </p>
+                            </div>
+
+                            <button type="button" className={styles.invite_btn}>Посмотреть</button>
+                        </div>
+
+                        <div className={styles.team_event_card}>
+                            <div className={styles.team_event_card_header}>
+                                <h2>2023</h2>
+                                <h3>1 место</h3>
+                            </div>                            
+
+                            <div className={styles.team_event_card_main}>
+                                <div className={styles.card_rating}>
+                                    <Rating />
+                                </div>
+
+                                <div className={styles.card_img}>
+                                    <img src={event1} alt="1 even" />
+                                </div>
+                            </div>
+
+                            <h3>Smart Social</h3>
+
+                            <div className={styles.team_event_project}>
+                                <h2>НАШ ПРОЕКТ</h2>
+                                <h3>GreenRoute</h3>
+                                <p>
+                                "GreenRoute" - платформа для выбора экологичных маршрутов. 
+                                Используем данные о дорогах, трафике и загрязнении, 
+                                чтобы предложить оптимальные пути с минимальным воздействием на окружающую среду. 
+                                Наша цель - стимулировать экологичное передвижение в городах.
+                                </p>
+                            </div>
+
+                            <button type="button" className={styles.invite_btn}>Посмотреть</button>
+                        </div>
+
+                        <div className={styles.team_event_card}>
+                            <div className={styles.team_event_card_header}>
+                                <h2>2023</h2>
+                                <h3>1 место</h3>
+                            </div>                            
+
+                            <div className={styles.team_event_card_main}>
+                                <div className={styles.card_rating}>
+                                    <Rating />
+                                </div>
+
+                                <div className={styles.card_img}>
+                                    <img src={event3} alt="1 even" />
+                                </div>
+                            </div>
+
+                            <h3>Smart Social</h3>
+
+                            <div className={styles.team_event_project}>
+                                <h2>НАШ ПРОЕКТ</h2>
+                                <h3>GreenRoute</h3>
+                                <p>
+                                "GreenRoute" - платформа для выбора экологичных маршрутов. 
+                                Используем данные о дорогах, трафике и загрязнении, 
+                                чтобы предложить оптимальные пути с минимальным воздействием на окружающую среду. 
+                                Наша цель - стимулировать экологичное передвижение в городах.
+                                </p>
+                            </div>
+
+                            <button type="button" className={styles.invite_btn}>Посмотреть</button>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>

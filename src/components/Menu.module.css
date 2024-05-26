@@ -16,5 +16,17 @@
     padding: 20px;
 }
 
+.mainMenu_profile {
+    display: flex;
+    align-items: center;
+}
+
+.mainMenu_profile a {
+    margin-right: 10px;
+    font-size: large;
+    color: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,106,46,1) 99%);
+}
+
+
 
 

@@ -158,7 +158,6 @@ a {
   height: 80%;
 
   background: linear-gradient(90deg, rgba(212,210,209,1) 0%, rgba(180,180,180,1) 99%);
-  
   overflow: auto;
 }
 
@@ -166,5 +165,9 @@ a {
   width: 100%;
 }
 
+#commands_btn {
+  background: linear-gradient(90deg, rgba(233,54,115,1) 0%, rgba(234,106,46,1) 99%);
+  color: white;
+}
 
 

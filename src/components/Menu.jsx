@@ -19,7 +19,12 @@ const Menu = () => {
         <NavLink to='/teams'>Команды-участники</NavLink>
     </nav>
 
-    <img src={logoVK} alt="VK" />
+    <div className={styles.mainMenu_profile}>
+      <NavLink to='/profile'>Мой профиль</NavLink>
+      <img src={logoVK} alt="VK" />
+    </div>
+
+    
 
     </div>   
   )
