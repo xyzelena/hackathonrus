@@ -2,7 +2,7 @@
 
 # hackathonrus
 
-Hackathon aggregator for [letshackhack](https://www.xn--80aa3anexr8c.xn--p1acf/letshackhack)
+Hackathon aggregator for [хакатоны.рус](https://www.xn--80aa3anexr8c.xn--p1acf/)
 
 ## Our team "Quartet" consists of:
 
