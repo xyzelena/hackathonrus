@@ -2,9 +2,20 @@
 
 # Hackathon aggregator
 
-Hackathon aggregator for [хакатоны.рус](https://www.xn--80aa3anexr8c.xn--p1acf/)
+Hackathon aggregator for [хакатоны.рус](https://www.xn--80aa3anexr8c.xn--p1acf/) 
 
-[Project Screen Recording Link](https://drive.google.com/file/d/1Sk0xQMGUTwLAJGtNw49e_ksIBfkUZwML/view?usp=sharing)
+The platform for hackathons and IT competitions
+
+As part of this project, unique features and functionality have been proposed that will improve the convenience and efficiency of the process of conducting IT competitions and hackathons.
+
+The project was completed by the Quartet team as part of a [hackathon](https://www.xn--80aa3anexr8c.xn--p1acf/letshackhack)
+
+## Main links: 
+* [Project Screen Recording Link](https://drive.google.com/file/d/1Sk0xQMGUTwLAJGtNw49e_ksIBfkUZwML/view?usp=sharing)
+* [Link to presentation](https://drive.google.com/file/d/12XHe1WD-EcNVJjQ8FjGOKC9VZd-jEfvj/view)
+* [Link to Figma layout](https://www.figma.com/design/CnTTlmMmbl3zUkY97oMBAS/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B5%D1%82-%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD?node-id=58-2266&t=qLacBnMpufYBXrSz-0)
+* [Link to GitLab to watch backend](https://gitlab.com/Lodhel/hack_ru)
+* [API documentation (swagger)](http://94.198.218.227/openapi)
 
 ## Our team "Quartet" consists of:
 
@@ -13,12 +24,6 @@ Hackathon aggregator for [хакатоны.рус](https://www.xn--80aa3anexr8c.
 3. Analyst/ML-dev: Elena Burnyasheva 
 4. Frontend: Elena Khuzhina 
 5. Backend/TeamLead: Roman Tatarinov
-
-## Main links: 
-* [Link to presentation](https://drive.google.com/file/d/12XHe1WD-EcNVJjQ8FjGOKC9VZd-jEfvj/view)
-* [Link to Figma layout](https://www.figma.com/design/CnTTlmMmbl3zUkY97oMBAS/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B5%D1%82-%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD?node-id=58-2266&t=qLacBnMpufYBXrSz-0)
-* [Link to GitLab to watch backend](https://gitlab.com/Lodhel/hack_ru)
-* [API documentation (swagger)](http://94.198.218.227/openapi)
 
 ## For the frontend were used: 
 * Setting up the environment: node.js, npm, ESLint, Makefile;
